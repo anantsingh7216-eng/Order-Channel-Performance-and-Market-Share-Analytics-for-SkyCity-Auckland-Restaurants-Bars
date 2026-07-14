@@ -7,7 +7,7 @@ st.set_page_config(page_title="Channel Analytics Dashboard", layout="wide")
 # Load data
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\Danish\Downloads\SkyCity Auckland Restaurants & Bars.csv")
+    return pd.read_csv(r"C:\Users\Anant\Downloads\SkyCity Auckland Restaurants & Bars.csv")
 
 df = load_data()
 
